@@ -30,7 +30,7 @@ downloading the first day.
         biocLite(pkgs=c("Biostrings", "seqLogo", "ggtree"))
     ```    
     To automatically install all (most) phylogenetic packages on CRAN you can use the ctv package.
-    This will take some time, so ensure you have a fast internet connetion and your laptop is connected to power:
+    This will take some time, so ensure you have a fast internet connection and your laptop is connected to power:
     ```
         install.packages("ctv")      
         library("ctv")      
