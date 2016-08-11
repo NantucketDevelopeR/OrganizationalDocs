@@ -19,7 +19,7 @@ downloading the first day.
     + Essential for R package development, and for installing non-CRAN (Github) packages: devtools, testthat, maggrittr.
       You can install packages using the install.packages command inside R:
     ```
-        install.packages(c("devtools", "testthat", "magrittr")     
+        install.packages(c("devtools", "testthat", "magrittr"))   
     ```    
     + Documentation (vignettes, practicals, tutorials): knitr
     + Plotting: ggplot2, rgl
