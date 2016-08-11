@@ -36,9 +36,27 @@ downloading the first day.
         library("ctv")      
         install.views("Phylogenetics")     
     ```
-To check that you can install and compile programs you can try to install the latest phangorn version from github:
+    To check that you can install and compile programs you can try to install the latest phangorn version from github:
     ```
        devtools:::install_github("KlausVigo/phangorn")
     ```  
+    Some make users may encounter a problem installing `phangorn` from github. Apparently, Xcode does not install all the necessary Fortran libraries. So, if you receive the following error message:
 
-
+    ```{r}
+        ld: warning: directory not found for option '-L/usr/local/lib/gcc/x86_64-apple-darwin13.0.0/4.8.2'
+        ld: library not found for -lgfortran
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        make: *** [phangorn.so] Error 1
+        ERROR: compilation failed for package ‘phangorn’
+        * removing ‘/Library/Frameworks/R.framework/Versions/3.3/Resources/library/phangorn’
+        Error: Command failed (1)
+    ```
+    
+    You need to install Fortran. From the your terminal application, this can be done with the two following lines. Notice: you will need admin status to do it.
+    
+    ```{bash}
+        curl -O http://r.research.att.com/libs/gfortran-4.8.2-darwin13.tar.bz2
+        sudo tar fvxz gfortran-4.8.2-darwin13.tar.bz2 -C /
+    ```
+    
+    Now, when you try to reinstall `phangorn` again, you should success.
