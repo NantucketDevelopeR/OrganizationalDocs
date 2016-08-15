@@ -6,6 +6,8 @@
 |Monday | AM | Organize into project groups |
 |Monday | PM | April - collaboration with GitHub |
 |Tuesday | All Day | Project Time |
+|Tuesday | Afternoon | Klaus - Optional discussion of interfacing R with other languages |
 |Wednesday | All Day | Project Time |
+|Wednesday | Morning | April - Optional discussion of using R on servers, and parallelization |
 |Thursday | All Day | Project Time |
 |Friday | All Day | Project Time |
