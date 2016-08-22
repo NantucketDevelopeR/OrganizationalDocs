@@ -9,6 +9,7 @@
 |Tuesday | Afternoon | Klaus - Optional discussion of interfacing R with other languages |
 |Wednesday | All Day | Project Time |
 |Wednesday | Morning | April - Optional discussion of using R on servers, and parallelization |
+|Wednesday | Morning | Klaus and April - Talking about testing and Roxygen |
 |Wednesday | AM | Project Time |
 |Wednesday | PM | Excursion |
 |Thursday | All Day | Project Time |
